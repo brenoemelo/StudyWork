@@ -1,0 +1,4 @@
+StudyWork
+=========
+
+Work during specialization
