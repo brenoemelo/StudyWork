@@ -9,3 +9,13 @@ Attention
 =========
 May contain tecnologies from dinosaur age. Sticky and old. :trollface:
 You was warned. :godmode:
+
+
+Projects
+========
+
+POO/
+Library
+Some OO concepts and primary database access
+WelcomeTests5
+HTML5 + Bootstrap + Jsf and Web concepts.
