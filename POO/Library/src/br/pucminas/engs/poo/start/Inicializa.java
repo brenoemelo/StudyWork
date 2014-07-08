@@ -15,6 +15,9 @@ import java.sql.Connection;
 /**
  *
  * @author Breno
+ * Implementação do inicializador do sistema
+ * Efetua verificação de disponibilidade do banco de dados
+ * Requer um login válido para inicialização
  */
 public class Inicializa {
 

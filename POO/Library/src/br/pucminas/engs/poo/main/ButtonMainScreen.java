@@ -11,6 +11,9 @@ import javax.swing.JLabel;
 /**
  *
  * @author Breno
+ * Implementa um botão padrão na tela inicial do sistema.
+ * Fonte, cores e listeners padrões.
+ * Implementa listener para simular um evento 'hover', destacando o botão quando o mouse esta sobre o botão.
  */
 public class ButtonMainScreen extends JLabel {
 

@@ -11,9 +11,10 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Breno
+ * @author Breno Implementação de uma tabela com a listagem do estoque
+ * cadastrado no sistema
  */
-public class EstoqueListaTableModel extends BaseTableModel<Estoque>{
+public class EstoqueListaTableModel extends BaseTableModel<Estoque> {
 
     public EstoqueListaTableModel() {
         initColumns();
@@ -25,6 +26,9 @@ public class EstoqueListaTableModel extends BaseTableModel<Estoque>{
         this.setListaObjetos(listaObjetos);
     }
 
+    /**
+     * Colunas da tabela
+     */
     private void initColumns() {
         setColunas(new String[]{
             "Identificação",
@@ -37,6 +41,5 @@ public class EstoqueListaTableModel extends BaseTableModel<Estoque>{
             "Livaria"
         });
     }
-    
-    
+
 }

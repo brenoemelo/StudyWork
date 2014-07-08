@@ -6,15 +6,14 @@
 package br.pucminas.engs.poo.main;
 
 import br.pucminas.engs.poo.base.Editora;
-import br.pucminas.engs.poo.base.Livraria;
 import br.pucminas.engs.poo.base.control.EditoraControl;
-import br.pucminas.engs.poo.base.control.LivrariaControl;
 import br.pucminas.engs.poo.login.SystemLogin;
 import javax.swing.JComboBox;
 
 /**
  *
  * @author Breno
+ * Implementação de um combo box com a listagem de todas as editoras cadastradas no sistema.
  */
 public final class EditoraComboBox extends JComboBox<Editora> {
 

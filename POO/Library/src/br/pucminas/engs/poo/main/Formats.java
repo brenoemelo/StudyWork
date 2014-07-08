@@ -12,6 +12,7 @@ import java.text.SimpleDateFormat;
 /**
  *
  * @author Breno
+ * Classe para definição de formatos específicos no sistema.
  */
 public class Formats {
     public final static SimpleDateFormat DATE_MY_SQL = new SimpleDateFormat("yyyy-MM-dd");

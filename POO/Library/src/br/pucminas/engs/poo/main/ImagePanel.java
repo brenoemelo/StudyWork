@@ -11,19 +11,17 @@ import java.awt.Image;
 /**
  *
  * @author Breno
+ * Painel com implementação de uma imagem.
  */
 public class ImagePanel extends javax.swing.JPanel {
 
-    /**
-     * Creates new form ImagePanel
-     */
     public ImagePanel() {
         initComponents();
     }
 
     @Override
     protected void paintComponent(Graphics g) {
-        super.paintComponent(g); //To change body of generated methods, choose Tools | Templates.
+        super.paintComponent(g); 
         if (imagem != null) {
             g.drawImage(imagem, 0, 0, this);
         }

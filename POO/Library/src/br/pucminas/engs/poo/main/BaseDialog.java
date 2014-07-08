@@ -20,6 +20,11 @@ public class BaseDialog extends javax.swing.JDialog {
 
     /**
      * Creates new form BaseDialog
+     * Usado como Dialog Base nas telas internas do sistema.
+     * Efetua a herança dos controles
+     *  - 'fechar' com a tecla esc
+     *  - Icone padrão do sistema
+     *  - Posicionamento Central da tela
      */
     public BaseDialog(java.awt.Frame parent, boolean modal) {
         super(parent, modal);

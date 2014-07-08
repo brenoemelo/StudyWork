@@ -13,6 +13,7 @@ import javax.swing.JComboBox;
 /**
  *
  * @author Breno
+ * Combo box listando todas as livrarias cadastradas no sistema
  */
 public final class LivrariaComboBox extends JComboBox<Livraria> {
 

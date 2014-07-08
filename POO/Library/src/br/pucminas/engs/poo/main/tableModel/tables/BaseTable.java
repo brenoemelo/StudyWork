@@ -12,7 +12,8 @@ import java.util.ArrayList;
 /**
  *
  * @author Breno
- * @param <T>
+ * @param <T> Tipo de objeto listado na tabela
+ * Interface padrão de uma tabela do sistema
  */
 public interface BaseTable<T> {   
     

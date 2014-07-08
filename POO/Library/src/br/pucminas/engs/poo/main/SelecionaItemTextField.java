@@ -12,6 +12,7 @@ import javax.swing.JTextField;
 /**
  *
  * @author Breno
+ * Campo de texto que fornece um dialog para seleção de um item cadastrado no sistema
  */
 public class SelecionaItemTextField extends JTextField {
 

@@ -12,6 +12,7 @@ import javax.swing.table.AbstractTableModel;
  *
  * @author Breno
  * @param <T>
+ * Table Model Padrão utilizada no sistema para exibição de informações em tabelas
  */
 public class BaseTableModel<T> extends AbstractTableModel {
 
@@ -28,14 +29,25 @@ public class BaseTableModel<T> extends AbstractTableModel {
         }
     }
 
+    /**
+     * 
+     * @param dadosTabela lista de objetos a serem listados na tabela
+     * @param colunas lista de colunas da tabela
+     * @param listaObjetos lista de objetos a serem listados na tabela
+     */
     public BaseTableModel(ArrayList dadosTabela, String[] colunas, ArrayList listaObjetos) {
         this.dadosTabela = dadosTabela;
         this.colunas = colunas;
         this.listaObjetos = listaObjetos;
     }
 
-    public T getObject(int column) {
-        return listaObjetos.get(column);
+    /**
+     * 
+     * @param row linha do objeto a ser retornado 
+     * @return Objeto na posição @row
+     */
+    public T getObject(int row) {
+        return listaObjetos.get(row);
     }
 
     @Override

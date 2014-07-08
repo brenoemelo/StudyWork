@@ -13,7 +13,7 @@ import br.pucminas.engs.poo.base.control.UsuarioControl;
  * @author Breno
  */
 public class SystemLogin {
-
+ 
     private String message;
     public static Usuario USUARIO_LOGADO;
 
