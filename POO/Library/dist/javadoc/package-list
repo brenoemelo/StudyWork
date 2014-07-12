@@ -1,0 +1,16 @@
+br.pucminas.engs.poo.base
+br.pucminas.engs.poo.base.control
+br.pucminas.engs.poo.database
+br.pucminas.engs.poo.login
+br.pucminas.engs.poo.main
+br.pucminas.engs.poo.main.tableModel
+br.pucminas.engs.poo.main.tableModel.tables
+br.pucminas.engs.poo.start
+br.pucminas.engs.poo.view.cadastros
+br.pucminas.engs.poo.view.estoque
+br.pucminas.engs.poo.view.item
+br.pucminas.engs.poo.view.livraria
+br.pucminas.engs.poo.view.main
+br.pucminas.engs.poo.view.pedidos
+br.pucminas.engs.poo.view.pessoa
+br.pucminas.engs.pooview.login

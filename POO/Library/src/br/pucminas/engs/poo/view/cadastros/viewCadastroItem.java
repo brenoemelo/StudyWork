@@ -15,12 +15,13 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewCadastroItem extends BaseDialog {
 
     /**
-     * Creates new form viewCadastroItem
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewCadastroItem(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -33,7 +34,7 @@ public class viewCadastroItem extends BaseDialog {
             l.setEdicao(Integer.parseInt(tfEdicao.getText()));
             l.setEditora_item((Editora) editoraComboBox1.getSelectedItem());
             l.setNome(tfNome.getText());
-            
+
             l.setPeso(Integer.parseInt(tfPeso.getText()));
             l.setPreco(Double.parseDouble(tfPreco.getText()));
             l.setTamanhoL(Double.parseDouble(tfLargura.getText()));

@@ -11,7 +11,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class SelecionaPessoaTextField extends JTextField {
 

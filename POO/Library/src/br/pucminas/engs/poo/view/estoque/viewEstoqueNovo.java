@@ -14,12 +14,13 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewEstoqueNovo extends BaseDialog {
 
     /**
-     * Creates new form viewEstoqueNovo
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewEstoqueNovo(java.awt.Frame parent, boolean modal) {
         super(parent, modal);

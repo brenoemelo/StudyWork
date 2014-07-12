@@ -10,12 +10,14 @@ import br.pucminas.engs.poo.main.BaseDialog;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewAdicionaItem extends BaseDialog {
 
     /**
      * Creates new form viewAdicionaItem
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewAdicionaItem(java.awt.Frame parent, boolean modal) {
         super(parent, modal);

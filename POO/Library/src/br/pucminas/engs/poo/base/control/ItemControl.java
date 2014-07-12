@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class ItemControl implements Controlable<Item> {
 

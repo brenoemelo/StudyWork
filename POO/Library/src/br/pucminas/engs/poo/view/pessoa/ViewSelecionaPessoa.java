@@ -11,12 +11,15 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class ViewSelecionaPessoa extends BaseDialog {
 
     /**
      * Creates new form ViewSelecionaPessoa
+     *
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public ViewSelecionaPessoa(java.awt.Frame parent, boolean modal) {
         super(parent, modal);

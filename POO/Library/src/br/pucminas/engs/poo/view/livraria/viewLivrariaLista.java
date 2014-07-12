@@ -3,33 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package br.pucminas.engs.poo.view.livraria;
 
-import br.pucminas.engs.poo.base.Livraria;
 import br.pucminas.engs.poo.main.BaseDialog;
-import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewLivrariaLista extends BaseDialog {
 
     /**
-     * Creates new form viewLivrariaLista
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewLivrariaLista(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
         this.setLocationRelativeTo(null);
     }
-    
-    private void search(){
+
+    private void search() {
         tableLivraria1.doSearch(null);
     }
-    
-    
 
     /**
      * This method is called from within the constructor to initialize the form.

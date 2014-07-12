@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class Livro extends Item {
 

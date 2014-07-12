@@ -7,7 +7,7 @@ package br.pucminas.engs.pooview.login;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class splashScreen extends javax.swing.JFrame {
 

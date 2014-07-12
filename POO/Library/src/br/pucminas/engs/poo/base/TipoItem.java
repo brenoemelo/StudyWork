@@ -7,7 +7,7 @@ package br.pucminas.engs.poo.base;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public enum TipoItem {
 

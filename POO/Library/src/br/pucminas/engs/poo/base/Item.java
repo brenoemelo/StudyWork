@@ -9,7 +9,7 @@ import br.pucminas.engs.poo.main.Formats;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class Item {
 

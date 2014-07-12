@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Breno Implementação de uma tabela com a listagem do estoque
+ * @author Breno/Bianca Implementação de uma tabela com a listagem do estoque
  * cadastrado no sistema
  */
 public class EstoqueListaTableModel extends BaseTableModel<Estoque> {

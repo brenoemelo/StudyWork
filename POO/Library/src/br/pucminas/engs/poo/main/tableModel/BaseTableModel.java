@@ -10,7 +10,7 @@ import javax.swing.table.AbstractTableModel;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  * @param <T>
  * Table Model Padrão utilizada no sistema para exibição de informações em tabelas
  */

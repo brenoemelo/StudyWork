@@ -21,7 +21,7 @@ import javax.swing.border.Border;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class BaseHintField extends JTextField implements FocusListener {
 

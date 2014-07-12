@@ -11,7 +11,7 @@ import javax.swing.text.MaskFormatter;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class FormatedField extends JFormattedTextField {
 

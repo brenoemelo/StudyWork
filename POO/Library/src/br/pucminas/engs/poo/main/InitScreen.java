@@ -18,7 +18,7 @@ import br.pucminas.engs.poo.view.pedidos.viewPedidoNovo;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  * Esta classe tem como objetivo manter uma instancia estatica de cada tela dos sistema
  * A fins de melhorar o desempenho durante o uso e manter os dados salvos caso o usuário saia da tela para 
  * efetuar outra consulta

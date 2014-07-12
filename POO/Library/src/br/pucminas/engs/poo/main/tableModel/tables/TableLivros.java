@@ -16,7 +16,7 @@ import javax.swing.JTable;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class TableLivros extends JTable implements BaseTable<Livro> {
 

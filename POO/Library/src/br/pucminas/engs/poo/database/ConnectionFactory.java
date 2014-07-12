@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class ConnectionFactory {
 
@@ -25,7 +25,7 @@ public class ConnectionFactory {
     private PreparedStatement stmt;
     /**
      * 
-     * @return Nova conexão
+     * @return Nova conexão com o banco de dados
      */
     public Connection getConnection() {
         try {

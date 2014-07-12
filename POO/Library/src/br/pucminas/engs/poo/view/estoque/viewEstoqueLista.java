@@ -3,31 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package br.pucminas.engs.poo.view.estoque;
 
 import br.pucminas.engs.poo.main.BaseDialog;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewEstoqueLista extends BaseDialog {
 
     /**
      * Creates new form viewEstoqueLista
-     * @param parent
-     * @param modal
+     *
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewEstoqueLista(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
         this.setLocationRelativeTo(null);
         this.setResizable(true);
-        
+
     }
-    
-    private void doSearch(){
+
+    private void doSearch() {
         tableEstoque1.doSearch(null);
         lbTotalItens.setText(String.valueOf(tableEstoque1.getData().size()));
     }
@@ -183,7 +183,6 @@ public class viewEstoqueLista extends BaseDialog {
         // TODO add your handling code here:
         doSearch();
     }//GEN-LAST:event_formComponentShown
-
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

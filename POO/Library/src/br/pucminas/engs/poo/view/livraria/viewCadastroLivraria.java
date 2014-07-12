@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package br.pucminas.engs.poo.view.livraria;
 
 import br.pucminas.engs.poo.base.Livraria;
@@ -13,33 +12,36 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewCadastroLivraria extends BaseDialog {
 
     /**
      * Creates new form viewCadastroLivraria
+     *
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewCadastroLivraria(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }
-    
-    private void adiciona(){
-        if(tfDescricao.getText().replace(" ", "").replace(".", "").isEmpty()) {
+
+    private void adiciona() {
+        if (tfDescricao.getText().replace(" ", "").replace(".", "").isEmpty()) {
             JOptionPane.showMessageDialog(rootPane, "Informe uma descrição válida!", "Atenção", JOptionPane.INFORMATION_MESSAGE);
             return;
         }
         Livraria l = new Livraria(cbFilial.isSelected(), tfEndereco.getText(), null, tfDescricao.getText());
         LivrariaControl lc = new LivrariaControl();
-        if(lc.insert(l)){
+        if (lc.insert(l)) {
             JOptionPane.showMessageDialog(rootPane, "Cadastro realizado com sucesso!", "Informação", JOptionPane.INFORMATION_MESSAGE);
             cleanFields();
             this.dispose();
         }
     }
-    
-    private void cleanFields(){
+
+    private void cleanFields() {
         tfDescricao.setText("");
         tfEndereco.setText("");
         cbFilial.setSelected(false);
@@ -201,7 +203,7 @@ public class viewCadastroLivraria extends BaseDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        if(JOptionPane.showConfirmDialog(rootPane, "Deseja realmente cancelar o cadastro?", "Confirmação", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION){
+        if (JOptionPane.showConfirmDialog(rootPane, "Deseja realmente cancelar o cadastro?", "Confirmação", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
             this.dispose();
         }
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -209,7 +211,6 @@ public class viewCadastroLivraria extends BaseDialog {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         adiciona();
     }//GEN-LAST:event_jButton1ActionPerformed
-
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

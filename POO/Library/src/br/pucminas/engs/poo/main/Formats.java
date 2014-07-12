@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  * Classe para definição de formatos específicos no sistema.
  */
 public class Formats {

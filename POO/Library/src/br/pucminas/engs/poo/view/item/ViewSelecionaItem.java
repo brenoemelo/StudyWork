@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package br.pucminas.engs.poo.view.item;
 
 import br.pucminas.engs.poo.base.Item;
@@ -12,20 +11,23 @@ import br.pucminas.engs.poo.main.BaseDialog;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class ViewSelecionaItem extends BaseDialog {
 
     /**
      * Creates new form ViewSelecionaItem
+     *
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public ViewSelecionaItem(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
         retorno = null;
     }
-    
-    private void search(){
+
+    private void search() {
         Item item = new Item();
         boolean search = false;
         if (!tfNome.getText().isEmpty()) {
@@ -33,7 +35,7 @@ public class ViewSelecionaItem extends BaseDialog {
             search = true;
             System.out.println("search nome");
         }
-        
+
         if (search) {
             System.out.println("search 1");
             tableItens1.doSearch(item);
@@ -42,7 +44,7 @@ public class ViewSelecionaItem extends BaseDialog {
             tableItens1.doSearch(null);
         }
     }
-    
+
     private void seleciona() {
         if (tableItens1.getSelecionado() != null) {
             retorno = tableItens1.getSelecionado();
@@ -174,7 +176,7 @@ public class ViewSelecionaItem extends BaseDialog {
 
     private void tableItens1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tableItens1MouseClicked
         // TODO add your handling code here:
-        
+
         if (evt.getClickCount() == 2) {
             seleciona();
         }

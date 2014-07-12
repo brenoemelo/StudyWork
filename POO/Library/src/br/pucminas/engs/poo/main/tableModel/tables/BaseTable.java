@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  * @param <T> Tipo de objeto listado na tabela
  * Interface padrão de uma tabela do sistema
  */

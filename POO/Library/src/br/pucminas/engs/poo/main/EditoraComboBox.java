@@ -12,7 +12,7 @@ import javax.swing.JComboBox;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  * Implementação de um combo box com a listagem de todas as editoras cadastradas no sistema.
  */
 public final class EditoraComboBox extends JComboBox<Editora> {

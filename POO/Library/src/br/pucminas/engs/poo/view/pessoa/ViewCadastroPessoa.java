@@ -12,12 +12,15 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class ViewCadastroPessoa extends BaseDialog {
 
     /**
      * Creates new form viewCadastroCliente
+     *
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public ViewCadastroPessoa(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -40,14 +43,14 @@ public class ViewCadastroPessoa extends BaseDialog {
         }
 
     }
-    
-     private void cleanFields(){
-         tfCpf.setText("");
-         tfEmail.setText("");
-         tfIdentidade.setText("");
-         tfNascimento.setText("");
-         tfNome.setText("");
-     }
+
+    private void cleanFields() {
+        tfCpf.setText("");
+        tfEmail.setText("");
+        tfIdentidade.setText("");
+        tfNascimento.setText("");
+        tfNome.setText("");
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.

@@ -9,12 +9,14 @@ import br.pucminas.engs.poo.main.BaseDialog;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewPedidoLista extends BaseDialog {
 
     /**
      * Creates new form viewPedidoLista
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewPedidoLista(java.awt.Frame parent, boolean modal) {
         super(parent, modal);

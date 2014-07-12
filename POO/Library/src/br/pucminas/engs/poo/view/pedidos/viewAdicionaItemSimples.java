@@ -18,15 +18,15 @@ import javax.swing.ListSelectionModel;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewAdicionaItemSimples extends BaseDialog {
 
     /**
      * Creates new form viewEstoqueLista
      *
-     * @param parent
-     * @param modal
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewAdicionaItemSimples(java.awt.Frame parent, boolean modal) {
         super(parent, modal);

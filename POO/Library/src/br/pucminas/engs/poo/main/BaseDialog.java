@@ -14,23 +14,22 @@ import javax.swing.KeyStroke;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class BaseDialog extends javax.swing.JDialog {
 
     /**
-     * Creates new form BaseDialog
-     * Usado como Dialog Base nas telas internas do sistema.
-     * Efetua a herança dos controles
-     *  - 'fechar' com a tecla esc
-     *  - Icone padrão do sistema
-     *  - Posicionamento Central da tela
+     * Creates new form BaseDialog Usado como Dialog Base nas telas internas do
+     * sistema. Efetua a herança dos controles - 'fechar' com a tecla esc -
+     * Icone padrão do sistema - Posicionamento Central da tela
+     *
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public BaseDialog(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
 
-        
         getRootPane().getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(27, 0), "fireDoFindNext");
         getRootPane().getActionMap().put("fireDoFindNext", new AbstractAction("fireDoFindNext") {
             @Override
@@ -42,8 +41,8 @@ public class BaseDialog extends javax.swing.JDialog {
         setIcon();
         this.setLocationRelativeTo(null);
     }
-    
-    private void setIcon(){
+
+    private void setIcon() {
         this.setIconImage(new javax.swing.ImageIcon(getClass().getResource("/br/pucminas/engs/resources/Book-icon-orange.gif")).getImage());
     }
 

@@ -15,15 +15,15 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class viewPedidoNovo extends BaseDialog {
 
     /**
      * Creates new form viewPedidoNovo
      *
-     * @param parent
-     * @param modal
+     * @param parent the parent Obj
+     * @param modal Set the screen to Modal
      */
     public viewPedidoNovo(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
@@ -89,9 +89,9 @@ public class viewPedidoNovo extends BaseDialog {
         }
         return true;
     }
-    
-    public void initConsultaPedido(){
-        
+
+    public void initConsultaPedido() {
+
     }
 
     /**

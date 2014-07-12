@@ -15,7 +15,7 @@ import javax.swing.ListSelectionModel;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class TableItensPedido extends JTable implements BaseTable<Estoque> {
 

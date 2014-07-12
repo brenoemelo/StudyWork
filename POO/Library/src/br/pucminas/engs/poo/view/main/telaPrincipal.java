@@ -11,7 +11,7 @@ import java.awt.Panel;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class telaPrincipal extends javax.swing.JFrame {
 

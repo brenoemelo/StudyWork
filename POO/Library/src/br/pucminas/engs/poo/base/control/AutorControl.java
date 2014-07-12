@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class AutorControl implements Controlable<Autor> {
 

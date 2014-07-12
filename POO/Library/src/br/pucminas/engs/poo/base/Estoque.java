@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class Estoque {
 

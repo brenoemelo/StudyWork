@@ -10,7 +10,7 @@ import java.awt.Image;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  * Painel com implementação de uma imagem.
  */
 public class ImagePanel extends javax.swing.JPanel {

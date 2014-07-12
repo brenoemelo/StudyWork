@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class PedidoTableModel extends BaseTableModel<Pedido> {
 

@@ -10,7 +10,7 @@ import br.pucminas.engs.poo.base.control.UsuarioControl;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class SystemLogin {
  

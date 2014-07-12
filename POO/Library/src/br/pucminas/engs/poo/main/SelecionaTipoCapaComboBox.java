@@ -11,7 +11,7 @@ import javax.swing.JComboBox;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class SelecionaTipoCapaComboBox extends JComboBox<String>{
     

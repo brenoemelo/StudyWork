@@ -14,7 +14,7 @@ import javax.swing.JTable;
 
 /**
  *
- * @author Breno
+ * @author Breno/Bianca
  */
 public class TableLivraria extends JTable implements BaseTable<Livraria>{
 

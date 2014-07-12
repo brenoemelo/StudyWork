@@ -7,7 +7,8 @@ package br.pucminas.engs.poo.base;
 
 /**
  * @version 0.1b
- * @author Breno Esta clase armazena as peridiciocidades possiveis para
+ * @author Breno/Bianca 
+ * Esta clase armazena as peridiciocidades possiveis para
  * publicação dos materias cadastrados no sistema Para adicionar novas
  * possiblidades, será necessário somente adicionar a esta classe. O construtor
  * recebe o intervalo contado em dias
